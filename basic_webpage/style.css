@@ -1,0 +1,81 @@
+
+html {
+	font-family: 'Poppins', serif;
+}
+
+
+#leftbold40 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+}
+
+#left28 {
+	font-size: 28px;
+	text-align: left;
+}
+
+#left24 {
+	font-size: 24px;
+	text-align: left;
+}
+
+#spacer {
+	padding: 90px;
+}
+
+#spacer2 {
+	padding: 25px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	/*Header*/
+	position: fixed;
+	height: 200px;
+	width: 100%;
+	background: #2C4762;
+	margin-top: -8px;
+	margin-left: -8px;
+	/*Text*/
+	text-align: center;
+	color:  #A1ACD1;
+	font-size: 40px;
+	font-weight: bold;
+	/*Border*/
+	border-bottom: 3px solid #BBBBBB;
+	border-top: 3px solid #BBBBBB;
+}
+
+.header img {
+	width: 120px;
+	object-fit: contain;
+}
+
+.actors {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 2px solid #BBBBBB;
+}
+
+.actors img {
+	width: 420px;
+	height: 320px;
+	object-fit: cover;
+	padding: 10px;
+}
+
+.actorPic {
+	text-align: center;
+	font-size: 18px;
+	border: 5px solid transparent;
+}
+
+.actorPicWin {
+	text-align: center;
+	font-size: 18px;
+	border: 5px solid blue;
+}
